@@ -1,7 +1,29 @@
 
 nav {
 	position: absolute;
+	width: 100%;
+	padding: 3rem;
 }
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-size: 3rem;
+}
+nav ul li {
+	margin-left: 2rem;
+	font-family: comic sans ms;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
 
 section.calling {
 	width: 100%;
@@ -14,18 +36,27 @@ section.calling {
 	color: lightgoldenrodyellow;
 }
 section.calling h1 {
-	padding-top: 12;
 	text-align: center;
-	font-size: 5rem;
-	margin: 0;
-	line-height: 5rem;
+	font-size: 3rem;
+	line-height: 2rem;
+	font-family: comic sans ms;
+
 }
+
+@media screen and (max-width:  900px){
+	section.calling h1 {
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	}
+}
+
 section.calling p {
 	text-align: center;
 	font-size: 50;
 	font-weight: bold;
-	margin: 0;
 	padding-top: 1;
+	margin: 0;
+	font-family: comic sans ms;
 }
 
 section.calling a {
@@ -37,35 +68,13 @@ section.calling a {
 	color: darkblue;
 	border-radius: 0.7rem;
 	margin-bottom: 8rem;
-
-
-
+	font-family: comic sans ms;
 }
-
-
-tr:nth-child(even) {
-  background-color: #ba89da;
-
-}
-table.tab {
-	border-collapse: collapse;
-	margin: 25px;
-	font-size: 2rem;
-	height: 50%;
-	width: 30%;
-}
-
-
-
-
-
 
 section.pages a {
 	display: inline;
 	width: 10%;
 	height: 10%;
-	
-
 }
 section.pages p {
 	display: inline-block;
@@ -79,9 +88,7 @@ section.pages p {
 	display: inline;
 	width: 10%;
 	height: 10%;
-	
-	
-
+	font-family: comic sans ms;
 }
 
 
@@ -89,12 +96,12 @@ section.pages {
 	background-color: lightyellow;
 }
 
-
-section.iframe {
-	width: 1rem;
-	height: 1rem;
-}
-footer {
+footer a {
 	font-size: 3rem;
-
+	font-family: comic sans ms;
+	color: darkblue;
+}
+footer p {font-size: 2rem
+	font-family: comic sans ms;
+	color: darkblue;
 }
