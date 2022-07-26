@@ -4,6 +4,11 @@ nav {
 	width: 100%;
 	padding: 3rem;
 }
+nav img{
+	width: 250px;
+	margin-left: auto;
+
+}
 nav ul {
 	list-style: none;
 	margin: 0;
@@ -27,7 +32,7 @@ nav a:hover{
 
 section.calling {
 	width: 100%;
-	height: 80%;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -43,12 +48,11 @@ section.calling h1 {
 
 }
 
-section.calling 
-img {
+section.calling img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 300px;
 }
 
 @media screen and (max-width:  900px){
@@ -62,7 +66,6 @@ section.calling p {
 	text-align: center;
 	font-size: 50;
 	font-weight: bold;
-	padding-top: 1;
 	margin: 0;
 	font-family: comic sans ms;
 }
@@ -77,39 +80,81 @@ section.calling a {
 	border-radius: 0.7rem;
 	margin-bottom: 8rem;
 	font-family: comic sans ms;
+	font-size: 1.5rem;
 }
 
 section.pages a {
 	display: inline;
-	width: 10%;
-	height: 10%;
+	max-width: 300px ;
+
 }
 section.pages p {
-	display: inline-block;
 	font-weight: bolder;
 	padding: 2rem 4rem;
 	background: lightpink;
-	position: center;
 	color: darkblue;
 	border-radius: 0.7rem;
-	margin-bottom: 8rem;
-	display: inline;
-	width: 10%;
-	height: 10%;
 	font-family: comic sans ms;
+	font-size: 1.5rem;
 }
+
 
 
 section.pages {
-	background-color: lightyellow;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+
 }
 
-footer a {
+section.pages img {
+  width: px;
+  padding-bottom: 3rem;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+footer h1 {
 	font-size: 3rem;
 	font-family: comic sans ms;
 	color: darkblue;
 }
-footer p {font-size: 2rem
+footer p {
+	font-size: 3rem;
 	font-family: comic sans ms;
 	color: darkblue;
+}
+
+
+section.villvage p {
+	font-family: comic sans ms;
+
+
+}
+
+section.village h1 {
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: skyblue;
+	margin: 0;
+	padding: 0;
+
+}
+
+section.village p {
+	font-weight: bolder;
+	padding: 2rem 4rem;
+	background: lightpink;
+	color: darkblue;
+	border-radius: 0.7rem;
+	font-family: comic sans ms;
+	width: 50%;
+	text-align: center;
 }
