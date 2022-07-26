@@ -1,11 +1,15 @@
+nav {
+	background-color: lightpink;
+	height: 7rem;
+}
 
 nav {
 	position: absolute;
 	width: 100%;
-	padding: 3rem;
+	padding: 1.5rem;
 }
 nav img{
-	width: 250px;
+	width: 210px;
 	margin-left: auto;
 
 }
@@ -43,7 +47,8 @@ section.calling h1 {
 	text-align: center;
 	font-size: 3rem;
 	line-height: 2rem;
-	font-family: comic sans ms;
+	font-family: fiesta;
+
 
 
 }
@@ -53,6 +58,8 @@ section.calling img {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media screen and (max-width:  900px){
@@ -67,20 +74,29 @@ section.calling p {
 	font-size: 50;
 	font-weight: bold;
 	margin: 0;
-	font-family: comic sans ms;
+	font-family: fiesta;
 }
 
 section.calling a {
 	display: inline-block;
 	font-weight: bolder;
 	padding: 2rem 4rem;
+	padding-top: 3rem;
 	background: lightpink;
-	position: center;
 	color: darkblue;
 	border-radius: 0.7rem;
-	margin-bottom: 8rem;
 	font-family: comic sans ms;
-	font-size: 1.5rem;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+
+	
+}
+
+section.calling {
+	background-color: #fbe8e6;
+	margin: auto;
+	width: 70%;
 }
 
 section.pages a {
@@ -96,6 +112,10 @@ section.pages p {
 	border-radius: 0.7rem;
 	font-family: comic sans ms;
 	font-size: 1.5rem;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+
 }
 
 
@@ -109,12 +129,17 @@ section.pages {
 }
 
 section.pages img {
-  width: px;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 200px;
-  height: 200px;
+  height: 180px;
 }
 
+section.pages {
+	background-color: lightskyblue ;
+	width: 70%;
+	margin: auto;
+}
 
 
 footer h1 {
@@ -143,8 +168,7 @@ section.village h1 {
 	justify-content: center;
 	align-items: center;
 	color: skyblue;
-	margin: 0;
-	padding: 0;
+	
 
 }
 
@@ -157,4 +181,5 @@ section.village p {
 	font-family: comic sans ms;
 	width: 50%;
 	text-align: center;
+	margin: auto;
 }
