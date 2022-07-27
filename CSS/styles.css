@@ -220,3 +220,6 @@ input[type=text] {
   resize: none;
  
 }
+section.fill {
+	padding-top: 10rem;
+}
